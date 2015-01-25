@@ -1,0 +1,104 @@
+\documentclass[line, letterpaper, margin]{res}
+
+%\usepackage{showframe}
+\usepackage{helvet} % Default font is the helvetica postscript font
+\usepackage{fancyhdr} % Using to edit header/footer
+\usepackage[us,12hr]{datetime} % `us' makes \today behave as usual in TeX/LaTeX
+
+% Put things in the headers/footers
+\fancypagestyle{plain}{
+    \fancyhf{} % No page number. (Don't ask me why.)
+    \renewcommand{\headrulewidth}{0pt} % No weird line at the top. (Don't ask me why.)
+    \rfoot{Compiled on {\mmddyyyydate\today} at \currenttime}
+}
+\pagestyle{plain} % apply style described above
+
+\begin{document}
+\name{Joseph Marvin McGee}
+\address{jmmcgee@ucdavis.edu | (323) 557-8647}
+
+\begin{resume}
+%---------------------------------------------------------------------------------------------------
+
+%\section{OBJECTIVE}
+%    Seeking a career that will help me take full advantage of my passion and experience in software engineering and computer science. 
+
+\section{EDUCATION}
+    {\sl Bachelor of Computer Science and Engineering}, (expected June 2016) \\
+    University of California, Davis, California \\
+%    Relevant Coursework:
+%    \begin{itemize}
+%        \item Data Structures
+%        \item Assembly Languages
+%        \item Computer Architecture
+%        \item Programming Languages
+%        \item Probability and Statistics.
+%        \item Algorithms
+%        \item 
+%        \item Senior Design
+%    \end{itemize}
+    Cumulative GPA: \quad 3.114/4.000 (Overall) \quad 3.667/4.000 (Major)
+
+\section{TECHNOLOGY \\ SKILLS} 
+    {\sl Programming Languages:}  C, C++, Java, JavaScript, Python \\
+    {\sl Web Technologies:} Django, Vaadin, NodeJS, JQuery \\
+    {\sl Software Engineering:} Git, Maven, GNU Make \\
+    {\sl Misc. Technologies:} bash, ssh, LaTeX, MinGW, PostgreSQL, VirtualBox \\
+    {\sl Environments:} Vim, Code Blocks, Visual Studios, Eclipse \\
+    {\sl Operating Systems:} Debian, Ubuntu, Windows XP -- Windows 8.1
+
+\section{EXPERIENCE}
+    {\bf Student Manager}, Engineering Student Startup Center \hfill {\bf 10/13 - Present} \\
+    University of California, Davis
+    \begin{itemize} \itemsep -2pt % Reduce space between items
+        \item Created simple scripts to manage event-scheduling and forms management.
+        \item Assisted students with equipment: 3D Printer, 3D Scanner, ShopBot.
+        \item Acted as primary editor for website.
+        \item Planned and facilitated events; Coordinated with student-run organizations.
+    \end{itemize}
+
+    {\bf Co-Founder and Software Engineer}, Archer \hfill {\bf 05/13 - Present} \\
+    Davis, CA
+    \begin{itemize} \itemsep -2pt % Reduce space between items
+        \item Designed computer vision algorithms to facilitate a spatial input mechanism.
+        % gap between increasingly complex media delivery systems and a stagnated input interface---the remote control.
+        \item Engineered prototype under time-pressure to show progress to potential investors.
+        %We recently incorporated and are developing our prototype and showing it to potential investors.
+        \item Designed and debugged systems to visualize and quantify correctness of algorithm output.
+        %I am responsible for is designing, coding and testing the prototype.
+    \end{itemize}
+    
+    {\bf Software Engineer (Intern)}, Intel, Jones Farms Campus \hfill {\bf 06/14 - 09/14} \\
+    Hillsboro, OR
+    \begin{itemize} \itemsep -2pt
+        \item Interpreted broad project requirements to create specific designs.
+        \item Engineered and configured a functional database-centered web application.
+            \subitem -- Identified and addressed concurrency issues with the system.
+            \subitem -- Documented progress and kept records of code history in Git.
+        \item Presented design goals and realized solution for Team to actual use.
+        
+    \end{itemize}
+
+    {\bf Teacher}, Educating Young Minds \hfill {\bf 06/13 - 08/13} \\
+    |\raggedright{\hfill {\bf 06/12 - 08/12}} \\
+    Los Angeles, CA
+    \begin{itemize} \itemsep -2pt
+        \item Taught grammar, reading comprehension, and essay-writing skills to classes between 5th and 12th grade.
+    \end{itemize}
+
+    {\bf Camp Counselor} Jenesse, Women's Shelter \hfill {\bf 07/11 - 08/11} \\
+    Los Angeles, CA
+    \begin{itemize} \itemsep -2pt % Reduce space between items
+        \item Supervised children at summer camp.
+        \item Chaperoned on Friday outings.
+    \end{itemize}
+
+\section{EXTRA-CURRICULAR ACTIVITIES}     
+    Member, Black Engineers Association \\
+    Member, Computer Science Club \\
+    Member, Linda Francis Alexander Scholars \\
+ 
+%---------------------------------------------------------------------------------------------------
+
+\end{resume}
+\end{document}
