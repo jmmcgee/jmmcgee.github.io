@@ -12,7 +12,9 @@
 }
 
 .links {
-  font: oblique 10pt Comic Sans MS, sans-serif;
-
+  font: oblique 10pt  Monospace, sans-serif;
 }
 
+header {
+  font-family: Verdana, sans-serif;
+}
