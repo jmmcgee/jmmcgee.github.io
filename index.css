@@ -1,0 +1,12 @@
+#header {
+  min-height: 100px;
+  min-width: 345px;
+  width: 400px;
+}
+
+.header-favicon {
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin: 0px 10px;
+}
