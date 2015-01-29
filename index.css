@@ -11,10 +11,15 @@
   margin: 0px 10px;
 }
 
-.links {
-  font: oblique 10pt  Monospace, sans-serif;
+header {
+  font-family: Verdana, arial, sans-serif;
 }
 
-header {
-  font-family: Verdana, sans-serif;
+span {
+  font-size: 10pt;
 }
+
+.links {
+  font: 12pt  Monospace, sans-serif;
+}
+
