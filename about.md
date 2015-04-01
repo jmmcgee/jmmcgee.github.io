@@ -4,7 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Joseph McGee, June 2016<br>
+Joseph McGee<br>
+Bachelor's of Science, June 2016<br>
 Computer Science & Engineering<br>
 University of California, Davis<br>
 
