@@ -6,4 +6,13 @@ _site
 Gemfile
 Gemfile.lock
 node_modules
-package.json
+package.json#### joe made this: http://goel.io/joe
+
+#####=== Vim ===#####
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+

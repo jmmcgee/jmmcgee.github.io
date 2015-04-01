@@ -4,11 +4,18 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Joseph McGee, June 2016<br>
+Computer Science & Engineering<br>
+University of California, Davis<br>
+
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Clubs
+
+- Senator, Black Engineers Association (UC Davis chapter of NSBE)
+- Member, Computer Science Club
+- Member, Linda Francis Alexander Scholars
 
 ### Contact me
 
