@@ -20,4 +20,5 @@ Clubs
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+{% if site.footer-links.email %}<a href="mailto:{{ site.footer-links.email }}">{{ site.footer-links.email %}}</a>{% endif %}
+
