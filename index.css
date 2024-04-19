@@ -11,12 +11,12 @@
   margin: 0px 10px;
 }
 
-header {
-  font-family: Verdana, arial, sans-serif;
+#subtitle {
+  font-size: 12pt;
 }
 
-span {
-  font-size: 12pt;
+h3 {
+  font-family: Verdana, arial, sans-serif;
 }
 
 a {
