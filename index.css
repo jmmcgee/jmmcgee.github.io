@@ -7,19 +7,30 @@
 .header-favicon {
   height: 100px;
   width: 100px;
-  float: left;
-  margin: 0px 10px;
+  display: inline-block;
+  margin: 0px 10px 0px 0px;
+}
+
+.header-text {
+  display: inline-block;
+  vertical-align: top;
+  line-height: normal;
+}
+
+#name {
+  margin: 0px 0px;
 }
 
 #subtitle {
   font-size: 12pt;
+  white-space: nowrap;
 }
 
 h3 {
-  font-family: Verdana, arial, sans-serif;
+  font-family: Verdana, Arial, sans-serif;
 }
 
 a {
-  font: 12pt  Monospace, sans-serif;
+  font-family: monospace, serif;
 }
 
