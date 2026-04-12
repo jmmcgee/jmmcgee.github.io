@@ -26,6 +26,10 @@
   white-space: nowrap;
 }
 
+#bold {
+  font-weight: bold;
+}
+
 h3 {
   font-family: Verdana, Arial, sans-serif;
 }
